@@ -54,7 +54,7 @@ public class BuggyCode {
 		System.out.println();
 
 		// Add one to double array
-		double[] doubVals = new double[]{3, 3, 10};
+		double[] doubVals = new double[]{4, 4, 3};
 		double[] addedOne = bugs.addOne(doubVals);
 
 		// Work out if new first element is bigger than second
