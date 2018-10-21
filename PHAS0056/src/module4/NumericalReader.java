@@ -201,6 +201,7 @@ public class NumericalReader {
 		NumericalReader nr = new NumericalReader();
 		nr.analyseDataFromURL(dataUrlRoot+"module4_data1.txt", "numbers1.txt", saveDir);
 
+		@SuppressWarnings("unused")
 		NumericalReader nr2 = new NumericalReader();
 		nr.analyseDataFromURL(dataUrlRoot+"module4_data2.txt", "numbers2.txt", saveDir);
 	}

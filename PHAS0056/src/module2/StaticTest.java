@@ -4,7 +4,8 @@ public class StaticTest {
     private int varA;
     private static int varB;
 
-    public static void main(String[] args) {
+    @SuppressWarnings("static-access")
+	public static void main(String[] args) {
       StaticTest objectX = new StaticTest();
       StaticTest objectY = new StaticTest();
       objectX.varA = 1;  objectX.varB = 2;

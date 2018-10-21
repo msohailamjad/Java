@@ -143,6 +143,7 @@ public class TestExceptions {
 
 		System.out.println("The following operations SHOULD throw exceptions:");
 		try {
+			@SuppressWarnings("unused")
 			FallingParticle dropPart = new FallingParticle(0, 2.1);
 			System.out.println("Creating particle with zero mass failed to throw an exception.");
 			ok = false;
@@ -151,6 +152,7 @@ public class TestExceptions {
 		}
 
 		try {
+			@SuppressWarnings("unused")
 			FallingParticle dropPart = new FallingParticle(2.1, -1);
 			System.out.println("Creating particle with negative drag coefficient failed to throw an exception.");
 			ok = false;
